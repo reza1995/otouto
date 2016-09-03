@@ -15,7 +15,7 @@ function weather:init(config)
 Returns the current weather conditions for a given location.]]
 end
 
-weather.command = 'weather <location>'
+weather.command = 'weather <موقعیت>'
 
 function weather:action(msg, config)
 
