@@ -41,7 +41,7 @@ function weather:action(msg, config)
 
     local jdat = JSON.decode(jstr)
     if jdat.cod ~= 200 then
-        utilities.send_reply(msg, 'Error: City not found.')
+        utilities.send_reply(msg, 'چنین موقعیتی نیست.')
         return
     end
 
